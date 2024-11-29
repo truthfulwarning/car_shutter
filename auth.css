@@ -1,0 +1,90 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url('911.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ensures the background covers full viewport height */
+    margin: 0;
+}
+
+.auth-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #3C3D37;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.auth-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; /* Changed to white */
+}
+
+.auth-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #fff; /* Changed to white */
+}
+
+.auth-container input[type="text"],
+.auth-container input[type="email"],
+.auth-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.auth-container input[type="text"]:focus,
+.auth-container input[type="email"]:focus,
+.auth-container input[type="password"]:focus {
+    border-color: #a678db;
+}
+
+.auth-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #a678db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.auth-container button:hover {
+    background-color: #8e56c7;
+}
+
+.auth-container p {
+    margin-top: 10px;
+    text-align: center;
+    color: #fff; /* Changed to white */
+}
+
+.auth-container a {
+    color: #a678db;
+    text-decoration: none;
+}
+
+.auth-container a:hover {
+    text-decoration: underline;
+}
