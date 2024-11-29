@@ -97,6 +97,6 @@ git push origin feature-name
 
 For questions or collaboration opportunities, reach out to:
 - Email: mohammedkachwala23@gamil.com
-- Github: truthfulwarning23
+- Github: truthfulwarning
 
 
